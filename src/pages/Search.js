@@ -7,10 +7,10 @@ import Alert from "../components/Alert";
 
 class Search extends Component {
   state = {
-    search: "",
-    breeds: [],
+    search : "",
+    breeds : [],
     results: [],
-    error: ""
+    error  : ""
   };
 
   // When the component mounts, get a list of all available base breeds and update this.state.breeds
